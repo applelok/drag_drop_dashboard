@@ -4,3 +4,5 @@ A little dashboard for students to get to know IT
 
 Fork from Codepen.io
 Drag and drop functionality by bevacqua/dragula
+
+Customized the dashboard and checking logic by myself
