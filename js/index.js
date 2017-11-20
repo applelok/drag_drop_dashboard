@@ -96,17 +96,17 @@ function checkingResultCol1(){
 	
 	var line1Values = $($('.drag-inner-list')[0]).find('.drag-item');
 	var result = [
-		['Dreamweaver', 'Sublime Text'],
-		['Android Studio', 'XCode'],
-		['Scala', 'Splunk'],
-		['Photoshop', 'Adobe Illustrator']
+		['Web developer', 'Android App Developer'],
+		['IT Support Technician', 'Electronic Technicians'],
+		['Data Scientist', 'IT Architect (Data)'],
+		['UI Designer', 'UX Designer']
 	];
 	
 	var columnHeadings = [
-		"Web developer", 
-		"Mobile App Developer", 
-		"Data Analyst",
-		"UI Designer"
+		"Software Engineering", 
+		"Hardware Engineering", 
+		"Big Data",
+		"IT Design"
 	]
 	var resultLine0 = ['DREAMWEAVER', 'Sublime Text'];
 	var checkingResult = [true, true, true, true];
@@ -166,8 +166,8 @@ function checkingResultCol1(){
 	}
 												 
 	if(finalResult){
-		$('#status-bar').text("You made it! Congratrulation!");
-		$('#msg-bar').text("You made it! Congratrulation!")
+		$('#status-bar').text("You made it! Congratulations!");
+		$('#msg-bar').text("You made it! Congratulations!")
 		// alert("Really success!");
 	}else{
 		$('#status-bar').text("Oops!");
