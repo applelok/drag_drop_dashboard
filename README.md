@@ -8,5 +8,5 @@ Drag and drop functionality by bevacqua/dragula
 Customized the dashboard and checking logic by myself
 
 
-A Pen created at CodePen.io. You can find this one at https://codepen.io/applelok/pen/vWeewB.
+A Pen created at CodePen.io. You can find this one at https://codepen.io/applelok/pen/aVLQXo.
 This kanban drag and drop layout is inspired by Invision, Trello, Google Keep, and @aaronstump. 
