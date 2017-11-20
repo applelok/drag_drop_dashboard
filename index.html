@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Kanban Drag and Drop</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <section class="section">
+	<h1>Drag and Drop - IT posts and tools</h1>
+	<h4>Let's try, drag and drop the cards under the correct column.</h4>
+</section>
+
+<div class="drag-container">
+	<ul class="drag-list">
+		<li class="drag-column drag-column-on-hold">
+			<span class="drag-column-header">
+				<h2>WEB DEVELOPER</h2>
+			
+			</span>
+				
+			
+			
+			<ul class="drag-inner-list" id="1">
+				<li class="drag-item">Dreamweaver</li>
+				<li class="drag-item">Sublime Text</li>
+			</ul>
+		</li>
+		<li class="drag-column drag-column-in-progress">
+			<span class="drag-column-header">
+				<h2>MOBILE APP DEVELOPER</h2>
+				
+			</span>
+			
+			<ul class="drag-inner-list" id="2">
+				<li class="drag-item">Android Studio</li>
+				<li class="drag-item">XCode</li>
+			</ul>
+		</li>
+		<li class="drag-column drag-column-needs-review">
+			<span class="drag-column-header">
+				<h2>DATA ANALYST</h2>
+			
+			</span>
+
+			<ul class="drag-inner-list" id="3">
+				<li class="drag-item">Scala</li>
+				<li class="drag-item">Splunk</li>
+			</ul>
+		</li>
+		<li class="drag-column drag-column-approved">
+			<span class="drag-column-header">
+				<h2>UI DESIGNER</h2>
+		
+			</span>
+			
+			<ul class="drag-inner-list" id="4">
+				<li class="drag-item">Photoshop</li>
+				<li class="drag-item">Adobe Illustrator</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+<div class="submit-div">
+	<h4 id="msg-div">Your result: <span id="msg-bar"></span></h4>
+	<div class="submit-div-box">
+		<button class="resetBtn bootstrap_redBtn" onclick="reset()">Reset</button>
+	</div>
+	<div class="">
+		<button class="submitBtn bootstrap_orangeBtn" onclick="checkingResultCol1()">Submit</button>
+	</div>
+	
+</div>
+
+<div class="clear"></div>
+
+<section class="section">
+<!-- 	<a href="https://github.com/bevacqua/dragula">Drag and drop functionality by <strong>bevacqua/dragula</strong></a> -->
+</section>
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/45226/dragula.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
